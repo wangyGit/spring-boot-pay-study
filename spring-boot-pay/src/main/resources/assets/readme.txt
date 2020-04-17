@@ -1,4 +1,4 @@
-﻿银联支付相关签名证书 自行配置 此处为测试证书
+银联支付相关签名证书 自行配置 此处为测试证书
 acp_prod_enc.cer
 acp_prod_sign_inst.pfx
 acp_prod_verify_sign.cer

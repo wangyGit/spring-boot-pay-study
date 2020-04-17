@@ -1,4 +1,4 @@
-﻿layui.define(['element', 'layer', 'form'], function (exports) {
+layui.define(['element', 'layer', 'form'], function (exports) {
     var form = layui.form();
     var $ = layui.jquery;
     //自定义验证

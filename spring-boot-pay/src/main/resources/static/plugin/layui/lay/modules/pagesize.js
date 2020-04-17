@@ -1,4 +1,4 @@
-﻿
+
 layui.define('jquery', function (exports) {
     var $ = layui.jquery;
     function pagesize(id, pageSize) {
