@@ -1,0 +1,27 @@
+ioc：控制反转  DI 依赖注入
+	控制反转后，控制反转后不再由自己本身的对象进行控制这个内置对象的创建，而由第三方系统去控制创建这个对象new
+	依赖注入，自身对象中的内置对象是通过注入的方式进行创建。
+	控制反转，是一种软件设计思想，依赖注入是软件设计思想的实现。
+	@Autowired:去寻找的是一个bean 如果找不到不想spring抛出异常可以设置autowired中的required 为false
+	@Qualifier("personBean"):存在多个实例的时候配合autowired使用
+	@Scope:可以用来创建单实例和多实例
+	@Controller:注解这是一个Controller容器
+	@Service：注解这是一个Service业务逻辑层容器
+	@Repository(value="userDao"):注解这是一个UserDaoImpl层逻辑
+	@Resource(name = "userDao")：在service中可以使用这个注解，来使用名字叫userDao的UserDaoImpl的实例
+	@Mapper：注解这是一个mapper层
+	@Component :注解这是一个bean spring组件管理的通用形式，可以使用在util包的类中
+	<context:component-scan base-package = "com.wy"/>：包扫描。
+	<context:exclude-filter :排除某个包
+	<context:include-filter :只扫描某个包，前提是把scan中的user-default-filters="false"关闭默认扫描
+
+aop:面向切面编程
+	@Aspect:面向切面的注解。
+	@Advice:在切面Aspect某个连接点上执行的操作。
+	  befor advice:在方法执行之前。
+	  after throwing advice:在方法抛出异常后执行的通知
+	  after (finally) advice:在方法不论正确错误后执行的通知.
+	  around advice:环绕。
+	  after returning advice:在方法正常完成后执行的通知。
+
+
