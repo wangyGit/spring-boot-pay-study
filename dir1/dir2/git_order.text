@@ -1,0 +1,57 @@
+1. touch git_order.text   --> new a .text file
+2. git -a    --> check all file include hide
+3. git -1    --> file order
+4. rm -r file  --> delete a folder
+5. git ls  --> check file
+6. git pwd --> check place catalog
+7. git status --> check file status
+8. git add file
+9. git commit -m"submit a file"
+10.git branch --> check branch status
+11.git branch dev --> creat a branch "dev"
+12.git checkout dev -->master pointer point to "dev"
+13.git branch -d dev -->git delete a stop branch "dev"
+14.git branch -D dev -->git delete a run branch "dev"
+15.git reflog --> 可用于查看操作的日志，只要HEAD发生了变化，对应的HEAD@{}就会在reflog中看到
+16.git branch dev HEAD@{} --> 根据HEAD@{}恢复删除了的dev分支
+17.git where --> check git install path
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VIM:
+vim.file 使用vim打开文件
+
+命令行模式下:
+1. :q! -->强制退出，不保存
+2. :wq -->保存并退出
+3. :q -->退出
+4. :w <文件路径> -->保存，另存为
+5. :saveas 文件路径 --> 另存为
+6. :x -->保存并退出
+7. :n,m> :将n-m行文件向右移动一个tab位
+8. :n,m< :类似7
+9
+
+普通模式下:
+1. x 删除游标所在的后一个字符
+2. X 删除游标所在的前一个字符
+3. Delete 同 x
+4. dd 删除整行
+5. dw 删除一个单词（不适用与中文）
+6. d$或D 删除至行尾
+7. d^ 删除至行首
+8. dG 删除至文档结尾
+9. dlG删除至文档首部
+
+
