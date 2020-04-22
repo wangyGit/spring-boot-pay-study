@@ -15,7 +15,7 @@
 15.git reflog --> 可用于查看操作的日志，只要HEAD发生了变化，对应的HEAD@{}就会在reflog中看到
 16.git branch dev HEAD@{} --> 根据HEAD@{}恢复删除了的dev分支
 17.git where --> check git install path
-
+18.git diff --> 查看尚未暂存的文件更新了哪些部分
 
 
 
