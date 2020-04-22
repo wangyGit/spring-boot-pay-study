@@ -16,7 +16,8 @@
 16.git branch dev HEAD@{} --> 根据HEAD@{}恢复删除了的dev分支
 17.git where --> check git install path
 18.git diff --> 查看尚未暂存的文件更新了哪些部分
-
+19.git diff HEAD --> 查看工作版本和HEAD的区别
+20.git merge 分支名称 ：分支合并（将某个分支的内容合并到master）
 
 
 
